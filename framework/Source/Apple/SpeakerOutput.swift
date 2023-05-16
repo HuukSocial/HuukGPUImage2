@@ -96,9 +96,7 @@ public class SpeakerOutput: AudioEncodingTarget {
     public func activateAudioTrack() {
         if(changesAudioSession) {
             do {
-                try AVAudioSession.sharedInstance().setCategory(
-                  AVAudioSession.Category.playback
-                )
+                try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
                 try AVAudioSession.sharedInstance().setActive(true)
             }
             catch {

@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-    s.name     = 'LXGPUImage2'
-    s.module_name   = 'LXGPUImage2'
-    s.version  = '6.3.2'
+    s.name     = 'HuukGPUImage3'
+    s.module_name   = 'HuukGPUImage3'
+    s.version  = '6.4.0'
     s.license  = 'BSD'
     s.summary  = 'An open source iOS framework for GPU-based image and video processing.'
-    s.homepage = 'https://github.com/thanhminhkma/GPUImage2'
+    s.homepage = 'https://github.com/HuukSocial/HuukGPUImage3'
     s.author   = { 'Brad Larson' => 'contact@sunsetlakesoftware.com' }
-    s.source   = { :git => 'https://github.com/thanhminhkma/GPUImage2.git', :tag => s.version }
+    s.source   = { :git => 'https://github.com/HuukSocial/HuukGPUImage3.git', :tag => s.version }
 
     s.source_files = 'framework/Source/**/*.{swift,h,m}'
     s.resources = ['framework/Source/Operations/Shaders/*.{fsh}']
